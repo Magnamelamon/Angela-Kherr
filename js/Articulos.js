@@ -41,6 +41,7 @@ Container.appendChild(CardContainer);
 fetch(Ruta)
 .then (response=>response.json())
 .then(data=>{
+    console.log(data);
     data.forEach(Producto=>{
         Products(Producto);
     });
