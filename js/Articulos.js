@@ -2,6 +2,7 @@ const Container=document.querySelector("#Articulos");
 const Ruta="../json/Productos.json";
 
 
+
 /*Creamos los articulos para que se muestre*/
 
 function Products(data)
