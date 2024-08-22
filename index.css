@@ -46,7 +46,7 @@ nav a {
     background-image: url("img/a307cd0b-a7c6-4c2d-a851-5cc2cbb9e3f3.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 120vh;
+    height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -59,8 +59,9 @@ nav a {
 }
 
 .products {
-    padding: 0px 20px;
+    padding: 0px 0px;
     text-align: center;
+    margin-top: 30px;
 }
 
 .product-grid {
@@ -156,4 +157,54 @@ footer {
 
 footer h4 {
     margin-bottom: 10px;
+}
+
+@media(max-width:1000px)
+{
+
+.carousel
+{
+    height: 25vh;
+}
+
+.products
+{
+    flex-direction: column;
+}
+
+.product-grid
+{
+    flex-wrap: wrap;
+    margin: 10%;
+}
+
+.product-card
+{
+    margin: 10px;
+}
+
+.about
+{
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+
+.about-content
+{
+    width: 90%;
+    border-radius: 2rem;
+    padding: 5%;
+}
+
+.about-image
+{
+    width: 90%;
+    height: 90%;
+}
+
+footer
+{
+    flex-direction: column;
+}
+
 }
