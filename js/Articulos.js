@@ -1,5 +1,5 @@
 const Container=document.querySelector("#Articulos");
-const Ruta="/json/Productos.json";
+const Ruta="Productos.json";
 
 
 
