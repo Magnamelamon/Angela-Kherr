@@ -1,7 +1,7 @@
 [
 {
     "Producto":"Producto 1",
-    "Imagen":"../../img/jabon.jpg",
+    "Imagen":"../img/jabon.jpg",
     "Precio":"precio del Producto"
 },
 {
